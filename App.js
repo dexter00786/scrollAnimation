@@ -161,13 +161,10 @@ const styles = StyleSheet.create({
   },
   bar: {
     backgroundColor: 'transparent',
-    marginTop: Platform.OS === 'ios' ? 15 : 20,
-    height: 32,
-    alignItems: 'center',
-    justifyContent: 'center',
+    padding: 15,
     position: 'absolute',
     top: 200,
-    left: 0,
+    left: 120,
     right: 0,
   },
   title: {
